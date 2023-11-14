@@ -1,19 +1,34 @@
 # Project Information
-site_name: 超赞合集 awesome list chinese
-site_description: 超赞列表合集 awesome list chinese zh CN 中文 awesome-python awesome-nodejs
-site_author: chenjiajia
-site_url: https://asmcn.icopy.site
+site_name: 多码网 - somanycode.com
+site_description: 多码网 开源合集 开源AI项目 开源前端 开源后端 开源大模型
+site_author: payhon
+site_url: https://www.somanycode.com
 
 # Repository
-repo_name: 'icopy-site/awesome-cn'
-repo_url: 'https://github.com/icopy-site/awesome-cn'
+repo_name: 'payhon/awesome-cn'
+repo_url: 'https://github.com/payhon/awesome-cn'
 edit_uri: 'blob/master/docs/'
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2019'
+copyright: 'Copyright &copy; 2022 - 2023'
 
 # Contents
 nav:
+  - AI:
+    - 机器学习: awesome/awesome-machine-learning.md
+    - 机器学习内容:
+      - 教程: awesome/Machine-Learning-Tutorials.md
+      - Ruby机器学习: awesome/machine-learning-with-ruby.md
+      - Core ML Models: awesome/Awesome-CoreML-Models.md
+      - H2O: awesome/awesome-h2o.md
+    - 机器视觉: awesome/awesome-computer-vision.md
+    - 深度学习: awesome/awesome-deep-learning.md
+    - 深度学习内容:
+      - TensorFlow: awesome/awesome-tensorflow.md
+      - 论文: awesome/awesome-deep-learning-papers.md
+      - 教育: awesome/awesome-deep-learning-resources.md
+    - 深度视觉: awesome/awesome-deep-vision.md
+    - 大模型: awesome/awesome-llm.md
   - 平台:
     - Node.js: awesome/awesome-nodejs.md
     - 前端开发: awesome/frontend-dev-bookmarks.md
@@ -500,10 +515,11 @@ nav:
 # Theme
 theme:
   name: material
+  custom_dir: mytheme/
 # Customization
 extra:
   search:
-    language: 'jp'
+    language: 'en'
   copyright: 'CC BY-NC-SA 4.0'
 
 extra_javascript:

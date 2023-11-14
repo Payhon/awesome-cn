@@ -5,3 +5,5 @@ mkdocs-material/
 */.DS_Store
 .env
 .idea/
+Lib
+Scripts
